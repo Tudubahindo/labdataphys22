@@ -5,6 +5,6 @@ Username        Nomi
 
 Tudubahindo     Lorenzo Ramella    
 Edounimi        Edoardo Naggi    
-tommmmmmmmmmmm  Tommaso Vedovello (o forse Thomas Giudici?)    
+tommmmmmmmmmmm  Tommaso Vedovello (o forse Thomas Giudici?) comunque tom    
 baronauta       Andrea Baroffio    
 FedericoManiero Federico Maniero    
