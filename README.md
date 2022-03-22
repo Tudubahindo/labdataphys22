@@ -4,6 +4,7 @@ repository degli studenti del Laboratorio di Fisica Computazionale (Unimi, Fisic
 Username        Nomi
 
 Tudubahindo     Lorenzo Ramella    
+ybouriga        Youssef Bouriga
 Edounimi        Edoardo Naggi    
 tommmmmmmmmmmm  Tommaso Vedovello (o forse Thomas Giudici?) comunque tom    
 baronauta       Andrea Baroffio    
