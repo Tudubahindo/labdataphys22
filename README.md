@@ -6,6 +6,7 @@ Username        Nomi
 Tudubahindo     Lorenzo Ramella    
 ybouriga        Youssef Bouriga    
 Edounimi        Edoardo Naggi    
-tommmmmmmmmmmm  Tommaso Vedovello (o forse Thomas Giudici?) comunque tom    
+tommmmmmmmmmmm  tom (non so i cognomi scusate)    
 baronauta       Andrea Baroffio    
 FedericoManiero Federico Maniero    
+Tommi DL        tom l'altro    
