@@ -6,10 +6,10 @@ Username        Nomi
 Tudubahindo     Lorenzo Ramella    
 ybouriga        Youssef Bouriga    
 Edounimi        Edoardo Franco Naggi    
-tommmmmmmmmmmm  tom (non so i cognomi scusate)    
+tommmmmmmmmmmm  tom vedovello    
 baronauta       Andrea Baroffio    
 FedericoManiero Federico Maniero    
-TommiDL         tom l'altro    
+TommiDL         tom di luciano (?)    
 MarcoGiussani   Marco Giussani    
 RootLover2000   Jacopo Zotti
 
