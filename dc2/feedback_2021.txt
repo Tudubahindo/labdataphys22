@@ -1,0 +1,158 @@
+Ogni feedback è diviso in una parte COM/VIZ, che si concentra sugli aspetti di comunicazione scientifica e visualizzazione grafica, e una parte TEC/SCI, sugli aspetti scientifici e sui dettagli tecnici delle analisi. Il feedback è doppio, ogni docente si è espresso indipendentemente, ma è chiarissimo chi sia chi.
+
+-------------------------------------------------
+
+Matteo Citterio (MG)
+
+COM/VIZ
+
+Report comprensibile e dettagliato, ma con un taglio più da ingegnere che da fisico. Molto in sordina, se non proprio assenti, i result statement.
+
+La figura 1 è esaustiva e ben costruita.
+La figura 2 non illuminante, forse anche a causa del problema descritto sotto in TEC/SCI.
+Si sente la mancanza di uno o più plot che rimpiazzino e sintetizzino la tabella in fig 3.
+
+Mettere una figura (la 2) subito sotto un titolo di sezione rende meno chiara l'identità della sezione (ad es, il titolo può sembrare titolo di figura).
+
+TEC/SCI
+
+Il metodo proposto è molto accurato, con test doppi su certi esiti.
+
+La soglia S_h tra equispaziati e uniformi è scelta falsificando il modello positivo (equispaziati), il che introduce una ulteriore dipendenza della soglia da sigma. Il modo più naturale è invece quello di prendere il modello nullo (uniformi) come ipotesi da falsificare.
+
+Interessante l'analisi sui testi differenziata per funzione lessicale.
+
+-------------------------------------------------
+
+Simone Pastori (MG)
+
+COM/VIZ
+
+Report ben strutturato ma non sempre chiarissimo (e un po' troppo lungo).
+
+Valeva la pena includere nel report la def di H.
+
+Elementi grafici troppo piccoli nelle figure.
+La figura 1 è utile perché dà un'idea intuitiva del problema.
+La figura 2 non è immediatamente comprensibile. In particolare si fatica a cogliere quali modelli (nullo vs positivi) siano usati nei vari pannelli.
+
+TEC/SCI
+
+Buona la discussione dei limiti delle scelte e delle analisi fatte.
+
+-------------------------------------------------
+
+Edoardo Tedesco (MG)
+
+COM/VIZ
+
+Il report è inefficiente comunicativamente perché troppo sbilanciato sulle figure rispetto al testo, che non è abbastanza per spiegare i metodi e i risultati.
+Il poco testo in sé è ben strutturato (utili corsivi e grassetti), ma troppo frammentato e quindi di lettura difficoltosa: addirittura le sezioni 2.1 e 2.2.1 sono costituite solo da una figura! Ulteriore elemento nocivo è la mancanza di rimandi alle figure nel testo.
+
+Le figure non sono ottimizzate sui messaggi. Presentano i dati invece di concentrarsi su una sintesi.
+La figura 2 in particolare è quasi incomprensibile (e ha caratteri troppo piccoli).
+In figura 3 mancano tutti i label sugli assi.
+
+TEC/SCI
+
+L'analisi sembra buona, ma è presentata troppo superficialmente per giudicarne la validità.
+
+Efficace (e originale rispetto ai colleghi) la scelta del test di Anderson-Darling.
+
+-------------------------------------------------
+
+Andrea Zecchinelli (MG)
+
+COM/VIZ
+
+Report chiaro, ma il racconto è un po' troppo cronologico e non abbastanza costruito attorno ai risultati, che nella prima parte rimangono un po' nascosti. Buoni invece i result statement nella sezione III; sarebbe stato ancora meglio sintetizzarli in una figura.
+
+Belle le visualizzazioni a barcode in fig 1. Sarebbe stato meglio separare graficamente (ad es. coi colori) i due barcode del modello repulsivo da quelli dell'attrattivo.
+Idem in figura 2: bisogna leggere la caption per capire i modelli corrispondenti ai pannelli.
+
+L'asse x in figura 3 non è significativo: ci sono modi di mostrare quei dati più compatti (ad esempio una distribuzione cumulativa)
+
+La lettura della tabella, per quanto aiutata dai grassetti, risulta faticosa. Perché non sintetizzare in una figura?
+
+TEC/SCI
+
+Il valore medio di H per dati esattamente equispaziati non dovrebbe essere 0.2, invece che 0.4? A cosa è dovuta la discrepanza?
+
+Interessante il tentativo di identificare i cicli giornalieri per un utente di reddit; ma l'analisi presentata in figura 4 è poco spiegata: non si capisce se è sistematica o fatta "ad occhio".
+
+-------------------------------------------------
+
+Matteo Citterio (MCL)
+
+MC definisce una pipeline gerarchica basata sulla statistica hopkins, un secondo controllo con modelli nulli specifici, e una analisi di correlazione. L'analisi viene testata con simulazioni e applicata a dati empirici. Report chiaro con visualizzazioni non eccelse. Efficace l'analisi di calibrazione delle soglie basata su simulazioni.
+
+COM/VIZ
+
+Non ottimale la scelta della tabella-heatmap in figura 2. GLi stessi dati sarebbero per esempio molto più semplici da vedere in una serie di plot unidimensionali (magari corredati da un diagramma di fase equivalente alla heatmap).Uso un po' confusionario delle note a pie' di pagina.
+
+TEC/SCI
+
+Il livello è molto buono. Forse sarebbe stato utile illustrare più in dettaglio il procedimento rispetto a un dataset (mostrando i dati e i risultati dei tre step della pipeline)
+
+-------------------------------------------------
+
+Simone Pastori (MCL)
+
+SP usa test Chi quadro e statistica di Hopkins, validati rispetto ai livelli di campionamento, e li applica ad alcuni dataset empirici.
+
+COM/VIZ
+
+Testo chiaro anche se un po’ schematico. Emergono un po’ poco i result statement.
+
+Veramente poco leggibili i plot di Fig. 2.
+
+Positiva l’idea di presentare i dati stessi, ma forse sarebbe stato bello presentarli insieme ad altre statistiche (profilo di densità locale, istogramma delle distanze, etc.)
+
+Manca una visualizzazione per le analisi dei dati empirici.
+
+TEC/SCI
+
+Non si capisce il ruolo dell’offset d nel fit esponenziale (dato che non è predetto dal modello nullo).
+
+-------------------------------------------------
+Edoardo Tedesco (MCL)
+
+ET usa Anderson-Darling test a corredo di Hopkins statistics per valutare alcuni dataset empirici, dopo aver effettuato vari test numerici.
+
+COM/VIZ
+
+Testo troppo schematico (e molti refusi a partire dal nome dell’autore), al punto da non essere comprensibile.
+
+Visualizzazioni belle ma ingombranti, che comprimono le spiegazioni. Si poteva salvare molto spazio e spiegare qualcosa di più
+
+Belle le summary analysis nei dataset reali (ma plot troppo piccoli e troppo spazio bianco sprecato)
+
+Caption telegrafiche.
+
+TEC/SCI
+
+Si vede che ci sono dentro molte idee, e molto entusiasmo testimoniato dai punti esclamativi, ma la comunicazione poco trasparente purtroppo annulla molti di questi sforzi.
+
+Per esempio io non ho capito la figura 1. La caption dice “Applico lo stimatore ad una distribuzione esponenziale (clusterizzata)” e già questo mi porta completamente fuori strada.
+
+Anderson-Darling test andrebbe spiegato e motivato.
+
+Le summary analysis dei dataset empirici meriterebbero più spazio/discussione (e potrebbero essere ampliate).
+
+-------------------------------------------------
+
+Andrea Carlo Zecchinelli (MCL)
+
+ACZ Usa distanza di Kolmogorov-Smirnov e statistica di Hopkins con validazioni e calibrazioni convincenti.
+
+COM/VIZ
+
+Testo e visualizzazioni di buona qualità. Bella l’idea dei barcode per rappresentare i dataset.Sarebbe stato bello mostrare anche densità locali, soprattutto in Fig 4.
+
+Tabella I non ha caption, e sarebbe stato molto meglio visualizzare l’accordo attraverso dei plot.Mancano visualizzazioni relative all’analisi di dataset empirici.
+
+TEC/SCI
+
+Convincente la parte di validazione. Manca una sintesi nella parte empirica.
+
+L’analisi in Fig 4 potrebbe essere leggermente più approfondita.
