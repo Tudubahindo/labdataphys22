@@ -8,7 +8,7 @@ Se adesso guardo gli incrementi (Δx_i = x_{i+1} - x_i), detti _interarrivals_, 
 
 Ok, adesso ho in mente un possibile test per capire se un dataset segue il modello nullo. Basta confermare che gli interarrivals seguono una distribuzione esponenziale, per esempio con un fit. Oppure potrei scegliere tantissimi sottointervalli di uguale lunghezza e vedere Poisson (lame). 
 
-Sugli stimatori: qui non serve fare niente, sono già stati fatti da matematici molto più svegli di noi. Il più famoso e meglio tagliato per questo problema è la [statistica di Hopkins](https://en.wikipedia.org/wiki/Hopkins_statistic). L'anno scorso alcuni studenti hanno anche provato a fare altre cose, tipo [Anderson-Darling](https://en.wikipedia.org/wiki/Anderson%E2%80%93Darling_test) o [Kolmogorov–Smirnov](https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test).
+Sugli stimatori: qui non serve fare niente, sono già stati fatti da matematici molto più svegli di noi. Il più famoso e meglio tagliato per questo problema è la [statistica di Hopkins](https://en.wikipedia.org/wiki/Hopkins_statistic).
 
 Sostanzialmente dc2 è molto su binari. Quello che dobbiamo fare, a quanto ho capito, è:
 
