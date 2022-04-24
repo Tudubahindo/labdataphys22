@@ -4,7 +4,7 @@ Immaginiamo di avere un intervallo chiuso sulla retta reale (al caso discreto pe
 
 Questo che ho appena descritto è il [processo di Poisson](https://en.wikipedia.org/wiki/Poisson_point_process). È il modello nullo di eventi indipendenti del problema che dobbiamo risolvere in dc2. Si chiama così perché, scelto un sottointervallo [a,b], il numero di elementi che ci aspettiamo di trovarci dentro è dato da una distribuzione di Poisson. Se ci pensate è evidente: il numero medio di elementi che mi aspetto di trovare in [a,b] è N x λ x (b - a), e la distribuzione che descrive quanti elementi mi aspetto di trovare sapendo la media è proprio la distribuzione di Poisson.
 
-Se adesso guardo gli incrementi (Δx_i = x_{i+1} - x_i), detti _interarrivals_, come sono distribuiti? La risposta è: una [distribuzione esponenziale](https://en.wikipedia.org/wiki/Exponential_distribution), cioè una funzione esponenziale normalizzata dal coefficiente negativo. Non solo, posso anche dire quale sia il coefficiente: λ! La distribuzione ha infatti forma f(x,λ) = λ exp(-λx). La dimostrazione di questi due fatti si trova di solito nei libri di statistica (vedi bibliografia di wikipedia), che io non comprerò, ma credo basterà affermare questo fatto come se fosse un fatto (che del resto è) senza indugi nel report.
+Se adesso guardo gli incrementi (Δx_i = x_{i+1} - x_i), detti _interarrivals_, come sono distribuiti? La risposta è: una [distribuzione esponenziale](https://en.wikipedia.org/wiki/Exponential_distribution), cioè una funzione esponenziale normalizzata dal coefficiente negativo. Non solo, posso anche dire quale sia il coefficiente: Nλ! La distribuzione ha infatti forma f(x,N,λ) = Nλ exp(-Nλx). La dimostrazione di questi due fatti si trova di solito nei libri di statistica (vedi bibliografia di wikipedia), che io non comprerò, ma credo basterà affermare questo come se fosse un fatto (che del resto è) senza indugi nel report.
 
 Ok, adesso ho in mente un possibile test per capire se un dataset segue il modello nullo. Basta confermare che gli interarrivals seguono una distribuzione esponenziale, per esempio con un fit. Oppure potrei scegliere tantissimi sottointervalli di uguale lunghezza e vedere Poisson (lame). 
 
@@ -13,6 +13,6 @@ Sugli stimatori: qui non serve fare niente, sono già stati fatti da matematici 
 Sostanzialmente dc2 è molto su binari. Quello che dobbiamo fare, a quanto ho capito, è:
 
 1. Definire una procedura sensata per usare gli stimatori e interpretare quello che dicono (la base è usare solo Hopkins, per essere fancy se ne può scegliere ance un altro). 
-2. Provarla su dati simulati (facoltativo). In merito a ciò uno degli studenti dello scorso anno aveva fatto uno script in Python per farlo e lo ha caricato sul suo Git, ve lo linko dopo.
+2. Provarla su dati simulati (facoltativo).
 3. Provarla su dati veri.
 4. Provare a costruire un modello positivo di aggregazione (facoltativo, hard).
