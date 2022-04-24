@@ -16,5 +16,3 @@ Sostanzialmente dc2 è molto su binari. Quello che dobbiamo fare, a quanto ho ca
 2. Provarla su dati simulati (facoltativo). In merito a ciò uno degli studenti dello scorso anno aveva fatto uno script in Python per farlo e lo ha caricato sul suo Git, ve lo linko dopo.
 3. Provarla su dati veri.
 4. Provare a costruire un modello positivo di aggregazione (facoltativo, hard).
-
-Gli studenti dello scorso anno hanno fatto lo stesso dc2. Vi allego i pdf dei 4 voti più alti con relativo feedback dei docenti. Non c'è scritto da nessuna parte che non si può prendere ispirazione. Il link alla repo di git con il codice della simulazione è nel report di quello che si chiama come il pomodoro, ma il codice non è commentato e non ho capito cosa sta succedendo.
